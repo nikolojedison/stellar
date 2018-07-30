@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200|Share+Tech+Mono');
+table {
+	margin: .5em;
+	margin-left: 2.5em;
+	font-size: .775em;
+}
+
+#navigation {
+    margin: .1em;
+    margin-left: 2.5em;
+    letter-spacing: .04em;
+    font-family: 'Oswald', monospace;
+}
+
+body {
+	background-color: #010710;
+	font-family: 'Share Tech Mono', monospace;
+	font-size: .85em;
+	color: #9999FF;
+}
+
+::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #0092DC; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #66CCCC; 
+}
+hr {
+    color: #0092DC;
+}
+
+h3 {
+    color: #578DDE;
+    font-family: 'Oswald', monospace;
+}
+
+table td + td {
+	border-left: .1em solid #5757C3;
+	padding: 5px;
+}
+
+table th + th {
+	border-left: .1em solid #5757C3;
+	padding: 5px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ol {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+li:hover {
+	color: #66CCCC;
+}
+
+#lol {
+    margin: 0em;
+}
+
+#lol:hover {
+	color: #66CCCC;
+}
+
+a {
+	color: #578DDE;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FFA204;
+}
+
+div {
+	margin: 1em;
+	margin-left: 2.5em;
+}
+
+#navigation:hover {
+	color: #0092DC;
+}
